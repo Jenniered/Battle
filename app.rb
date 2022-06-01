@@ -5,9 +5,9 @@ class Battle < Sinatra::Base
   configure :development do
     register Sinatra::Reloader
   end
-  
+
   get "/" do
-    "Hello Battle!"
+    "Testing infrastructure working!"
   end
 
 # our routes would go here
